@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vertical Align Using Transform property</title>
+    <link href="css/common.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+        #container {
+            position: relative;
+            height: 500px;
+        }
+
+        .box {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div class="box">
+        <h2>Hello</h2>
+    </div>
+</div>
+</body>
+</html>
