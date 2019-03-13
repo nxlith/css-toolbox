@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+
+#container {
+    padding: 25px;
+    background-color: #009dff;
+}
+
+.box {
+    background-color: #2d62b2;
+    color: #ffffff;
+}
