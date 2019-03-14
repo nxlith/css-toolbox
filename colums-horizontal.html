@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <link href="css/common.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+        body {
+            box-sizing: border-box;
+        }
+
+        #container {
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 15px !important;
+            padding-left: 15px !important;
+            padding: 0;
+            height: 100%;
+
+        }
+
+        .row {
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+
+        /* Clearfix */
+        .row:after, .row:before {
+            display: table;
+            content: " ";
+        }
+
+        .row:after {
+            clear: both;
+        }
+
+        .column {
+            position: relative;
+            float: left;
+            width: 33.33333333%;
+            padding: 10px 15px;
+
+            border: 1px solid rgba(86, 61, 124, .2);
+            background-color: #ffffff;
+
+            /* Prevent columns collapse when empty */
+            min-height: 1px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Columns Horizontal</title>
+
+</head>
+<body>
+<div id="container">
+    <div class="row">
+        <div class="column">
+            <h3>Hello</h3>
+            <p>How it's going</p>
+        </div>
+        <div class="column">
+            <h3>Hello</h3>
+            <p>How it's going</p>
+        </div>
+        <div class="column">
+            <h3>Hello</h3>
+            <p>How it's going</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <h3>Hello</h3>
+            <p>How it's going</p>
+        </div>
+        <div class="column">
+            <h3>Hello</h3>
+            <p>How it's going</p>
+        </div>
+        <div class="column">
+            <h3>Hello</h3>
+            <p>How it's going</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
