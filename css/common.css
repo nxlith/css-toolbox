@@ -20,3 +20,13 @@ body {
     background-color: #2d62b2;
     color: #ffffff;
 }
+
+/* Clearfix */
+.clearfix:after, .clearfix:before, .row:before {
+    display: table;
+    content: " ";
+}
+
+.clearfix:after {
+    clear: both;
+}
