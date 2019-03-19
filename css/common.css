@@ -16,6 +16,13 @@ body {
     background-color: #009dff;
 }
 
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .box {
     background-color: #2d62b2;
     color: #ffffff;
