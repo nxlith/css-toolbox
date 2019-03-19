@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background example</title>
+    <link href="css/common.css" rel="stylesheet" type="text/css"/>
+    <link rel='stylesheet' id='nokri-theme-slug-fonts-css'
+          href='https://fonts.googleapis.com/css?family=Poppins:400,500,600%7CSans+Serif:400,500,700%7CQuicksand:400,500,700&#038;subset=latin,latin-ext'
+          type='text/css' media='all'/>
+
+    <style type="text/css">
+        #bg-wrapper {
+            background: url(img/code-01.jpg) no-repeat scroll center center / cover;
+            color: #fff;
+            padding-bottom: 130px;
+            padding-top: 220px;
+            position: relative;
+            z-index: 1;
+        }
+
+        #bg-wrapper::after {
+            background: rgba(0, 0, 0, 0.75);
+            content: "";
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: -1;
+        }
+
+        /*
+            Column A
+         */
+        .col-a {
+            font-family: 'Poppins', sans-serif;
+            position: relative;
+            float: left;
+            width: 58.33333333%;
+        }
+
+        .hero-title {
+            font-weight: 400;
+        }
+
+        h3.hero-title {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 300;
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.4;
+        }
+
+        .col-a h2 {
+            margin-top: 0;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 1.5;
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        .col-a p {
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+
+        .col-b {
+            position: relative;
+            float: left;
+            width: 33.33333333%;
+            margin-left: 8.33333333%;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .col-b form {
+            color: #242424;
+            background: #fff none repeat scroll 0 0;
+            border-radius: 4px;
+            box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.05);
+            margin: 0 auto;
+            width: 370px;
+            height: 370px;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+<div id="bg-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-a">
+                <h3 class="hero-title">Starting From Dream Jobs</h3>
+                <h2>High End Job WordPress Theme</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.At vero eos et
+                    accusamus
+                    et iusto odio dignissimos At vero eos et accusamus et iusto odio dignissimos </p>
+            </div>
+            <div class="col-b">
+                <form>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
