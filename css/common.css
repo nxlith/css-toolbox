@@ -38,12 +38,12 @@ body {
 }
 
 /* Clearfix */
-.row:after, .row:before {
+.container:after, .container:before, .row:after, .row:before {
     display: table;
     content: " ";
 }
 
-.row:after {
+.container:after, .row:after {
     clear: both;
 }
 
