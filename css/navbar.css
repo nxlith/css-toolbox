@@ -7,11 +7,9 @@ a {
     text-decoration: none;
 }
 
-#container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+.container {
     height: 100%;
+    background-color: #ecf2f7;
 }
 
 /* Main */
