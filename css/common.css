@@ -31,6 +31,22 @@ body {
     padding-right: 15px;
 }
 
+.row {
+    /* Due container has padding */
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* Clearfix */
+.row:after, .row:before {
+    display: table;
+    content: " ";
+}
+
+.row:after {
+    clear: both;
+}
+
 .box {
     background-color: #2d62b2;
     color: #ffffff;
